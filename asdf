@@ -1,62 +1,88 @@
-System:    Kernel: 5.16.15-051615-generic x86_64 bits: 64 compiler: N/A Desktop: Cinnamon 5.2.7 
-           wm: muffin dm: LightDM Distro: Linux Mint 20.3 Una base: Ubuntu 20.04 focal 
-Machine:   Type: Desktop Mobo: ASRock model: H610M-HDV/M.2 serial: <filter> 
-           UEFI: American Megatrends LLC. v: 4.02 date: 01/03/2022 
-Battery:   Device-1: hidpp_battery_0 model: Logitech Wireless Mouse M525 serial: <filter> 
-           charge: 100% (should be ignored) status: Discharging 
-CPU:       Topology: 6-Core model: 12th Gen Intel Core i5-12400 bits: 64 type: MT MCP arch: N/A 
-           L2 cache: 18.0 MiB 
-           flags: avx avx2 lm nx pae sse sse2 sse3 sse4_1 sse4_2 ssse3 vmx bogomips: 59904 
-           Speed: 4151 MHz min/max: 800/5600 MHz Core speeds (MHz): 1: 4087 2: 4148 3: 4047 
-           4: 4023 5: 3944 6: 3998 7: 4000 8: 4000 9: 4032 10: 4180 11: 4002 12: 4000 
-Graphics:  Device-1: Intel vendor: ASRock driver: i915 v: kernel bus ID: 00:02.0 
-           chip ID: 8086:4692 
-           Display: x11 server: X.Org 1.20.13 driver: modesetting unloaded: fbdev,vesa 
-           resolution: 1920x1080~60Hz 
-           OpenGL: renderer: Mesa Intel Graphics (ADL-S GT1) v: 4.6 Mesa 21.2.6 direct render: Yes 
-Audio:     Device-1: Intel vendor: ASRock driver: snd_hda_intel v: kernel bus ID: 00:1f.3 
-           chip ID: 8086:7ad0 
-           Device-2: Logitech Headset H390 type: USB driver: hid-generic,snd-usb-audio,usbhid 
-           bus ID: 1-1:2 chip ID: 046d:0a44 
-           Sound Server: ALSA v: k5.16.15-051615-generic 
-Network:   Device-1: Intel Ethernet I219-V vendor: ASRock driver: e1000e v: kernel port: efa0 
-           bus ID: 00:1f.6 chip ID: 8086:1a1d 
-           IF: enp0s31f6 state: up speed: 1000 Mbps duplex: full mac: <filter> 
-Drives:    Local Storage: total: 1.27 TiB used: 568.07 GiB (43.7%) 
-           ID-1: /dev/sda vendor: Crucial model: CT256MX100SSD1 size: 238.47 GiB speed: 6.0 Gb/s 
-           serial: <filter> 
-           ID-2: /dev/sdb vendor: Toshiba model: MK6465GSX size: 596.17 GiB speed: 3.0 Gb/s 
-           serial: <filter> 
-           ID-3: /dev/sdc type: USB vendor: Hitachi model: HTS727550A9E364 size: 465.76 GiB 
-           serial: <filter> 
-Partition: ID-1: / size: 159.90 GiB used: 113.17 GiB (70.8%) fs: ext4 dev: /dev/sda2 
-Sensors:   System Temperatures: cpu: 52.0 C mobo: N/A 
-           Fan Speeds (RPM): N/A 
-Repos:     Active apt repos in: /etc/apt/sources.list.d/additional-repositories.list 
-           1: deb https: //dl.winehq.org/wine-builds/ubuntu/ jammy main
-           No active apt repos in: /etc/apt/sources.list.d/alexlarsson-flatpak-focal.list 
-           No active apt repos in: /etc/apt/sources.list.d/devkitpro.list 
-           Active apt repos in: /etc/apt/sources.list.d/google-chrome.list 
-           1: deb [arch=amd64] https: //dl.google.com/linux/chrome/deb/ stable main
-           No active apt repos in: /etc/apt/sources.list.d/lutris-team-lutris-focal.list 
-           Active apt repos in: /etc/apt/sources.list.d/official-package-repositories.list 
-           1: deb https: //mirror.pit.teraswitch.com/linuxmint vanessa main upstream import backport
-           2: deb http: //plug-mirror.rcac.purdue.edu/ubuntu jammy main restricted universe multiverse
-           3: deb http: //plug-mirror.rcac.purdue.edu/ubuntu jammy-updates main restricted universe multiverse
-           4: deb http: //plug-mirror.rcac.purdue.edu/ubuntu jammy-backports main restricted universe multiverse
-           5: deb http: //security.ubuntu.com/ubuntu/ jammy-security main restricted universe multiverse
-           Active apt repos in: /etc/apt/sources.list.d/ondrej-apache2-focal.list 
-           1: deb http: //ppa.launchpad.net/ondrej/apache2/ubuntu jammy main
-           Active apt repos in: /etc/apt/sources.list.d/ondrej-php-focal.list 
-           1: deb http: //ppa.launchpad.net/ondrej/php/ubuntu jammy main
-           Active apt repos in: /etc/apt/sources.list.d/skype-stable.list 
-           1: deb [arch=amd64] https: //repo.skype.com/deb stable main
-           Active apt repos in: /etc/apt/sources.list.d/steam.list 
-           1: deb [arch=amd64,i386] https: //repo.steampowered.com/steam/ stable steam
-           2: deb-src [arch=amd64,i386] https: //repo.steampowered.com/steam/ stable steam
-           No active apt repos in: /etc/apt/sources.list.d/sylvain-pineau-kazam-focal.list 
-           No active apt repos in: /etc/apt/sources.list.d/tuxinvader-lts-mainline-focal.list 
-           No active apt repos in: /etc/apt/sources.list.d/vscode.list 
-Info:      Processes: 395 Uptime: 3h 58m Memory: 15.41 GiB used: 5.72 GiB (37.1%) Init: systemd 
-           v: 245 runlevel: 5 Compilers: gcc: 9.4.0 alt: 8/9 Client: Unknown python3.8 client 
-           inxi: 3.0.38 
+System:
+  Kernel: 5.19.0-051900-generic x86_64 bits: 64 compiler: N/A Desktop: Cinnamon 5.4.9
+    tk: GTK 3.24.33 wm: Mutter dm: LightDM Distro: Linux Mint 21 Vanessa base: Ubuntu 22.04 jammy
+Machine:
+  Type: Desktop Mobo: ASRock model: H610M-HDV/M.2 serial: <superuser required>
+    UEFI: American Megatrends LLC. v: 4.02 date: 01/03/2022
+Battery:
+  Device-1: hidpp_battery_0 model: Logitech Wireless Mouse M525 serial: <filter>
+    charge: 100% (should be ignored) status: Discharging
+CPU:
+  Info: 6-core model: 12th Gen Intel Core i5-12400 bits: 64 type: MT MCP arch: Alder Lake rev: 5
+    cache: L1: 480 KiB L2: 7.5 MiB L3: 18 MiB
+  Speed (MHz): avg: 1073 high: 2500 min/max: 800/5600 cores: 1: 2500 2: 600 3: 600 4: 2500
+    5: 600 6: 600 7: 600 8: 600 9: 2500 10: 600 11: 587 12: 600 bogomips: 59904
+  Flags: avx avx2 ht lm nx pae sse sse2 sse3 sse4_1 sse4_2 ssse3 vmx
+Graphics:
+  Device-1: Intel vendor: ASRock driver: i915 v: kernel ports: active: HDMI-A-1
+    empty: DP-1,DP-2,HDMI-A-2 bus-ID: 00:02.0 chip-ID: 8086:4692
+  Display: x11 server: X.Org v: 1.21.1.3 driver: X: loaded: modesetting unloaded: fbdev,vesa
+    gpu: i915 display-ID: :0 screens: 1
+  Screen-1: 0 s-res: 1920x1080 s-dpi: 96
+  Monitor-1: HDMI-1 mapped: HDMI-A-1 model: Asus VX228 res: 1920x1080 dpi: 102
+    diag: 546mm (21.5")
+  OpenGL: renderer: Mesa Intel Graphics (ADL-S GT1) v: 4.6 Mesa 22.0.5 direct render: Yes
+Audio:
+  Device-1: Intel vendor: ASRock driver: snd_hda_intel v: kernel bus-ID: 00:1f.3
+    chip-ID: 8086:7ad0
+  Device-2: Logitech Headset H390 type: USB driver: hid-generic,snd-usb-audio,usbhid
+    bus-ID: 1-1:2 chip-ID: 046d:0a44
+  Sound Server-1: ALSA v: k5.19.0-051900-generic running: yes
+  Sound Server-2: JACK v: 1.9.20 running: no
+  Sound Server-3: PulseAudio v: 15.99.1 running: yes
+  Sound Server-4: PipeWire v: 0.3.48 running: yes
+Network:
+  Device-1: Intel Ethernet I219-V vendor: ASRock driver: e1000e v: kernel port: N/A
+    bus-ID: 00:1f.6 chip-ID: 8086:1a1d
+  IF: enp0s31f6 state: up speed: 1000 Mbps duplex: full mac: <filter>
+Drives:
+  Local Storage: total: 1.27 TiB used: 588.49 GiB (45.3%)
+  ID-1: /dev/sda vendor: Crucial model: CT256MX100SSD1 size: 238.47 GiB speed: 6.0 Gb/s
+    serial: <filter>
+  ID-2: /dev/sdb vendor: Toshiba model: MK6465GSX size: 596.17 GiB speed: 3.0 Gb/s
+    serial: <filter>
+  ID-3: /dev/sdc type: USB vendor: Hitachi model: HTS727550A9E364 size: 465.76 GiB
+    serial: <filter>
+Partition:
+  ID-1: / size: 159.84 GiB used: 114.62 GiB (71.7%) fs: ext4 dev: /dev/sda2
+  ID-2: /boot/efi size: 511 MiB used: 89.6 MiB (17.5%) fs: vfat dev: /dev/sda1
+Swap:
+  ID-1: swap-1 type: file size: 2 GiB used: 2 MiB (0.1%) priority: -2 file: /swapfile
+Sensors:
+  System Temperatures: cpu: 40.0 C mobo: N/A
+  Fan Speeds (RPM): N/A
+Repos:
+  Packages: 3421 apt: 3385 flatpak: 20 snap: 16
+  Active apt repos in: /etc/apt/sources.list.d/additional-repositories.list
+    1: deb https: //dl.winehq.org/wine-builds/ubuntu/ jammy main
+  Active apt repos in: /etc/apt/sources.list.d/alexlarsson-flatpak-focal.list
+    1: deb http: //ppa.launchpad.net/alexlarsson/flatpak/ubuntu focal main
+  Active apt repos in: /etc/apt/sources.list.d/cappelikan-ppa-jammy.list
+    1: deb http: //ppa.launchpad.net/cappelikan/ppa/ubuntu jammy main
+  No active apt repos in: /etc/apt/sources.list.d/devkitpro.list
+  Active apt repos in: /etc/apt/sources.list.d/google-chrome.list
+    1: deb [arch=amd64] https: //dl.google.com/linux/chrome/deb/ stable main
+  No active apt repos in: /etc/apt/sources.list.d/lutris-team-lutris-focal.list
+  Active apt repos in: /etc/apt/sources.list.d/official-package-repositories.list
+    1: deb https: //mirror.pit.teraswitch.com/linuxmint vanessa main upstream import backport
+    2: deb http: //plug-mirror.rcac.purdue.edu/ubuntu jammy main restricted universe multiverse
+    3: deb http: //plug-mirror.rcac.purdue.edu/ubuntu jammy-updates main restricted universe multiverse
+    4: deb http: //plug-mirror.rcac.purdue.edu/ubuntu jammy-backports main restricted universe multiverse
+    5: deb http: //security.ubuntu.com/ubuntu/ jammy-security main restricted universe multiverse
+  Active apt repos in: /etc/apt/sources.list.d/ondrej-apache2-focal.list
+    1: deb http: //ppa.launchpad.net/ondrej/apache2/ubuntu jammy main
+  Active apt repos in: /etc/apt/sources.list.d/ondrej-php-focal.list
+    1: deb http: //ppa.launchpad.net/ondrej/php/ubuntu jammy main
+  Active apt repos in: /etc/apt/sources.list.d/skype-stable.list
+    1: deb [arch=amd64] https: //repo.skype.com/deb stable main
+  Active apt repos in: /etc/apt/sources.list.d/steam.list
+    1: deb [arch=amd64,i386] https: //repo.steampowered.com/steam/ stable steam
+    2: deb-src [arch=amd64,i386] https: //repo.steampowered.com/steam/ stable steam
+  Active apt repos in: /etc/apt/sources.list.d/sylvain-pineau-kazam-focal.list
+    1: deb http: //ppa.launchpad.net/sylvain-pineau/kazam/ubuntu focal main
+  Active apt repos in: /etc/apt/sources.list.d/tuxinvader-lts-mainline-focal.list
+    1: deb http: //ppa.launchpad.net/tuxinvader/lts-mainline/ubuntu focal main
+  No active apt repos in: /etc/apt/sources.list.d/vscode.list
+Info:
+  Processes: 417 Uptime: 20m Memory: 15.4 GiB used: 4.6 GiB (29.9%) Init: systemd v: 249
+  runlevel: 5 Compilers: gcc: 11.2.0 alt: 11/9 Client: Unknown python3.10 client inxi: 3.3.13
